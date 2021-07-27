@@ -21,5 +21,5 @@ Quando nao atribuimos valores para variavies inteiras o Go assume o valor 0 para
 
 Para concatenar um texto em go precisamos passar o nome da variavel após a virgula depois de uma string.
 ```
-	fmt.Println("O preço do leite é R$", precoLeite)
+fmt.Println("O preço do leite é R$", precoLeite)
 ```
