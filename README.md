@@ -23,3 +23,11 @@ Para concatenar um texto em go precisamos passar o nome da variavel após a virg
 ```
 fmt.Println("O preço do leite é R$", precoLeite)
 ```
+### Inferências de tipos
+
+Um ponto importante da linguagem GO é que ele pode inferir a variavel onde não precisamos declarar o tipo de dados, onde ele automáticamente reconhece o datatype, por exemplo:
+```
+var nome = "Anderson Xavier"
+var idade = 10
+```
+
