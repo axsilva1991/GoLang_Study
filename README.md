@@ -29,5 +29,8 @@ Um ponto importante da linguagem GO é que ele pode inferir a variavel onde não
 ```
 var nome = "Anderson Xavier"
 var idade = 10
+**ou** 
+nome := "Anderson Xavier"
+idade := 10
 ```
-
+Um ponto importante é sempre tomar cuidado ao inferir variaveis 
