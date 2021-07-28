@@ -41,6 +41,18 @@ Um ponto importante é sempre tomar cuidado ao inferir variaveis
 ```
 var estados [4]string
 ```
+Como iterar um array
+```
+	estados[0] = "RJ"
+	estados[1] = "SP"
+	estados[2] = "MG"
+	estados[3] = "ES"
+```
+
+
 **Slice**
 ```
+nomes:= [] string{"Douglas","Daniel","Bernardo"}
+//esta é a forma que usamos para popular um slice.
+nomes = append(nomes, "Marilson")
 ```
