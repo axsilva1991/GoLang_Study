@@ -34,3 +34,13 @@ nome := "Anderson Xavier"
 idade := 10
 ```
 Um ponto importante é sempre tomar cuidado ao inferir variaveis 
+
+### Coleções em GO
+
+**array** - Precisa determinar o tamanho do conjunto de dados.
+```
+**var estados [4]string
+**```
+**Slice**
+```
+```
