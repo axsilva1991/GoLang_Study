@@ -39,8 +39,8 @@ Um ponto importante é sempre tomar cuidado ao inferir variaveis
 
 **array** - Precisa determinar o tamanho do conjunto de dados.
 ```
-**var estados [4]string
-**```
+var estados [4]string
+```
 **Slice**
 ```
 ```
