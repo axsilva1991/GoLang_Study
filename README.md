@@ -37,7 +37,7 @@ Um ponto importante é sempre tomar cuidado ao inferir variaveis
 
 ### Coleções em GO
 
-**array** - Precisa determinar o tamanho do conjunto de dados.
+**Array** - Precisa determinar o tamanho do conjunto de dados.
 ```
 var estados [4]string
 ```
@@ -50,9 +50,13 @@ Como iterar um array
 ```
 
 
-**Slice**
+**Slice** - Trata-se de um array por baixo dos panos, ele basicamente cria um array com o numero de posições e capacidade igual ao número de valores atribuidos.<br>
+Um fator importante é que quando populamos um slice, ele automáticamente dobra a sua capacidade que pode ser notada pelo comando ```cap(nomes)```
+
+* **```len(nomes)```** quantidade de itens no slice/array 
 ```
 nomes:= [] string{"Douglas","Daniel","Bernardo"}
 //esta é a forma que usamos para popular um slice.
 nomes = append(nomes, "Marilson")
 ```
+
