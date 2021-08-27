@@ -59,4 +59,6 @@ nomes:= [] string{"Douglas","Daniel","Bernardo"}
 //esta é a forma que usamos para popular um slice.
 nomes = append(nomes, "Marilson")
 ```
+Montagem do ambiente 
 
+é importante mudar os valores dos arquivos bash do root e do usuário para que consiga usar o GOPAHT
