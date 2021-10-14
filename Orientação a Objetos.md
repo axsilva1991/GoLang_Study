@@ -7,7 +7,7 @@ Neste arquivo iremos aprender como estruturar a orientação a objetos em GOLANG
 Criando a estrutura:  
 ```
 type ContaCorrente struct {
-    titular       string
+    titular       string 
     numeroAgencia int
     numeroConta   int
     saldo         float64
