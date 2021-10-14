@@ -37,6 +37,29 @@ fmt.Println(*contaDaCris)
 ```
 O **asterisco (*)**  serve como um ponteiro.
 
+### Multiplos Retornos
+No golang, podemos ter o retorno de mais de 1 parametro em funções, por exemplo:  
+
+```
+func (c *ContaCorrente) Depositar(valorDoDeposito float 64) (string, float 64) {
+    if valorDoDeposito > 0 {
+        c.saldo += valordoDeposito
+        return "Deposito realizado com sucesso", c.saldo
+    } else { 
+        retur "Valor do depósito menor que zero", c.saldo
+    }
+}
+```
+Exemplo de invocação de função que retorna mais de 1 parametro.  
+```
+status, valor := contaDaSilvia.Depositar(2000)
+
+```
+
+
+
+
+
 ## Referencias:
-https://github.com/alura-cursos/go_oo
+https://github.com/alura-cursos/go_oo  
 https://github.com/alura-cursos/go_oo/tree/aula2
