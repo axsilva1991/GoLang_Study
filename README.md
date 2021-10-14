@@ -80,4 +80,4 @@ forma antiga.
 ## Projeto de referencia:
 https://s3.amazonaws.com/caelum-online-public/624-golang/07/projetos/alura-golang-stage-fim-cap07.zip
 
-## [Continue com a Orientação a Objetos](Orientação%20a%20Objetos.md)
+## [Continue com a Orientação a Objetos em GOLANG](Orientação%20a%20Objetos.md)
