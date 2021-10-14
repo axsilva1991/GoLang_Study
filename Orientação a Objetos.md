@@ -23,9 +23,6 @@ _Podemos instanciar o objeto de 2 formas:_
 2 - Passando apenas os campos preenchidos, ideal para quando tivermos que preencher todos os campos.
 ```
 	contaDaBruna := ContaCorrente{"Bruna", 222, 111222, 200}
-
-	fmt.Println(contaDoGuilherme)
-	fmt.Println(contaDaBruna)
 ```
 
 ## Referencias:
