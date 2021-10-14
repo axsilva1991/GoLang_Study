@@ -39,3 +39,4 @@ O **asterisco (*)**  serve como um ponteiro.
 
 ## Referencias:
 https://github.com/alura-cursos/go_oo
+https://github.com/alura-cursos/go_oo/tree/aula2
