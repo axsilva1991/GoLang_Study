@@ -74,7 +74,6 @@ status := contaDaSilvia.Transferir(200, &contaDoGustavo)
 #### [Continue com a Pacotes e Visibilidade](02_Pacotes_e_visibilidade.md)
 
 
-
 ## Referencias:
 https://github.com/alura-cursos/go_oo  
 https://github.com/alura-cursos/go_oo/tree/aula2
