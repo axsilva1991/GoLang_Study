@@ -13,7 +13,7 @@ type ContaCorrente struct {
     saldo         float64
 }
 ```
-_Podemos instanciar o objeto de 2 formas:_    
+_Podemos instanciar o objeto de 3 formas:_    
 1 - passando o nome do campo e 2 pontos (para quando tivermos que passar apenas alguns parametrsp) 
 ```
 	contaDoGuilherme := ContaCorrente{titular: "Guilherme",
@@ -23,6 +23,17 @@ _Podemos instanciar o objeto de 2 formas:_
 2 - Passando apenas os campos preenchidos, ideal para quando tivermos que preencher todos os campos.
 ```
 	contaDaBruna := ContaCorrente{"Bruna", 222, 111222, 200}
+```
+3 - Iniciando e usando algo parecido com o set.   
+
+```
+var contaDaCris *ContaCorrente
+contaDaCris = new(ContaCorrente)
+contaDaCris.titular = "Cris"
+contaDaCris.saldo = 500
+
+
+fmt.Println(*contaDaCris)
 ```
 
 ## Referencias:
