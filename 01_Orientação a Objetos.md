@@ -71,6 +71,7 @@ func (c *ContaCorrente) Transferir(valorDaTransferencia float64, contaDestino *C
 ```
 status := contaDaSilvia.Transferir(200, &contaDoGustavo)
 ```
+#### [Continue com a Pacotes e Visibilidade](02_Pacotes_e_visibilidade.md)
 
 
 
