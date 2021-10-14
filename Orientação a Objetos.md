@@ -55,8 +55,22 @@ Exemplo de invocação de função que retorna mais de 1 parametro.
 status, valor := contaDaSilvia.Depositar(2000)
 
 ```
-
-
+### Manipulando Objetos diferentes
+Para manipularmos 2 objetos diferentes, devemos usar os 2 simbolos * para apontar o objeto de referencia e o & para apontar o destino no qual iremos direcionar o conteúdo.
+```
+func (c *ContaCorrente) Transferir(valorDaTransferencia float64, contaDestino *ContaCorrente) bool {
+    if valorDaTransferencia < c.saldo {
+        c.saldo -= valorDaTransferencia 
+        contaDestino.Depositar(valorDaTransferencia)
+        return true
+    } else {
+        return false
+    }
+}
+```
+```
+status := contaDaSilvia.Transferir(200, &contaDoGustavo)
+```
 
 
 
