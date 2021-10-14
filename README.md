@@ -64,8 +64,16 @@ Montagem do ambiente
 é importante mudar os valores dos arquivos bash do root e do usuário para que consiga usar o GOPAHT
 
 ### Estruturas de repetição
-* **```for i, item := range sites { //instrução}```** Forma mais adequada 
-* **```for i := 0; i < len(sites); i++ {
-        fmt.Println(sites[i])
-    }```** forma antiga.
+```
+	for i, item := range sites { 
+	//instrução}
+``` 
+Forma mais adequada 
+
+```
+	for i := 0; i < len(sites); i++ {
+		fmt.Println(sites[i])
+	} 
+```    
+forma antiga.
 
