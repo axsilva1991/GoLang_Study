@@ -35,6 +35,7 @@ contaDaCris.saldo = 500
 
 fmt.Println(*contaDaCris)
 ```
+O **asterisco (*)**  serve como um ponteiro.
 
 ## Referencias:
 https://github.com/alura-cursos/go_oo
